@@ -40,7 +40,7 @@ a {
 .bio {
   margin-bottom: 0px;
   padding: 15px 30px 30px;
-  font-family: Roboto, sans-serif;
+  font-family: Mali, sans-serif;
   color: #666;
   font-size: 18px;
   line-height: 28px;
@@ -149,6 +149,11 @@ a {
 
 .link-block {
   overflow: visible;
+}
+
+.heading {
+  font-family: Mali, sans-serif;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 991px) {

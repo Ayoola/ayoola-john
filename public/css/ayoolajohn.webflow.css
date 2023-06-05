@@ -3,22 +3,18 @@ a {
 }
 
 .avatar {
-  padding-top: 0px;
-  border-radius: 50%;
   text-align: center;
+  border-radius: 50%;
+  padding-top: 0;
 }
 
 .container-2 {
-  margin-bottom: 20px;
-  padding: 0px;
   text-align: center;
+  margin-bottom: 20px;
+  padding: 0;
 }
 
-.section {
-  text-align: left;
-}
-
-.button {
+.section, .button {
   text-align: left;
 }
 
@@ -31,38 +27,38 @@ a {
 }
 
 .container-1 {
-  padding-top: 20px;
-  padding-right: 10px;
-  padding-left: 10px;
   text-align: center;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .bio {
-  margin-bottom: 0px;
-  padding: 15px 30px 30px;
-  font-family: Montserrat, sans-serif;
   color: #666;
-  font-size: 18px;
-  line-height: 28px;
-  font-weight: 300;
   text-align: center;
   letter-spacing: normal;
-  text-decoration: none;
-  text-indent: 0px;
+  text-indent: 0;
   white-space: normal;
+  margin-bottom: 0;
+  padding: 15px 30px 30px;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  text-decoration: none;
 }
 
 .container-3 {
-  margin-bottom: 0px;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .button-2 {
+  background-color: #333;
+  border-radius: 20px;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #333;
 }
 
 .social-icon {
@@ -81,44 +77,40 @@ a {
 }
 
 .utility-page-wrap {
-  display: flex;
   width: 100vw;
   height: 100vh;
   max-height: 100%;
   max-width: 100%;
   justify-content: center;
   align-items: center;
+  display: flex;
 }
 
 .utility-page-content {
-  display: flex;
   width: 260px;
-  flex-direction: column;
   text-align: center;
+  flex-direction: column;
+  display: flex;
 }
 
 .utility-page-form {
-  display: flex;
   flex-direction: column;
   align-items: stretch;
+  display: flex;
 }
 
 .body {
+  background-color: #fff;
   padding-top: 20px;
   padding-bottom: 30px;
-  background-color: #fff;
 }
 
 .fea {
+  text-decoration: none;
   display: inline;
-  text-decoration: none;
 }
 
-.link-2 {
-  text-decoration: none;
-}
-
-.link-3 {
+.link-2, .link-3 {
   text-decoration: none;
 }
 
@@ -133,7 +125,7 @@ a {
 
 @media screen and (max-width: 991px) {
   .container-3 {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     padding-bottom: 30px;
   }
 }
@@ -144,4 +136,5 @@ a {
     padding-bottom: 30px;
   }
 }
+
 
